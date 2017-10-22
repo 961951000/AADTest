@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AADTest1", "AADTest1\AADTest1.csproj", "{F7A16B7B-CDBA-4B72-A034-28FB61B6F3E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AADTest2", "AADTest2\AADTest2.csproj", "{7748F3CD-525A-4873-BC2A-B61BC4C06005}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7A16B7B-CDBA-4B72-A034-28FB61B6F3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A16B7B-CDBA-4B72-A034-28FB61B6F3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A16B7B-CDBA-4B72-A034-28FB61B6F3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A16B7B-CDBA-4B72-A034-28FB61B6F3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7748F3CD-525A-4873-BC2A-B61BC4C06005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7748F3CD-525A-4873-BC2A-B61BC4C06005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7748F3CD-525A-4873-BC2A-B61BC4C06005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7748F3CD-525A-4873-BC2A-B61BC4C06005}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDE0240E-7791-4CA0-8B68-AAAC63ABF75B}
+	EndGlobalSection
+EndGlobal
