@@ -2,7 +2,7 @@
 using System.Web;
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
-namespace AADTest1.Helpers
+namespace AADTest1.Authorization
 {
     public class NaiveSessionCache : TokenCache
     {

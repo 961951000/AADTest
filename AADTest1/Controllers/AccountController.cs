@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
+﻿using System.Security.Claims;
 using System.Web;
 using System.Web.Mvc;
-using AADTest1.Helpers;
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OpenIdConnect;
+using AADTest1.Authorization;
+using AADTest1.DatabaseContext;
+using System.Linq;
 
 namespace AADTest1.Controllers
 {

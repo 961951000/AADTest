@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using Microsoft.Azure;
 
-namespace AADTest1.Helpers
+namespace AADTest1.Authorization
 {
     public class AuthenticationHelper
     {
@@ -17,6 +17,7 @@ namespace AADTest1.Helpers
         public static readonly string AppKey = CloudConfigurationManager.GetSetting("ida:AppKey");
         public static readonly string AadInstance = CloudConfigurationManager.GetSetting("ida:AADInstance");
         public static readonly string Tenant = CloudConfigurationManager.GetSetting("ida:Tenant");
+        public static readonly string TenantId = CloudConfigurationManager.GetSetting("ida:TenantId");
         public static readonly string RedirectUri = CloudConfigurationManager.GetSetting("ida:RedirectUri");
         public static readonly string PostLogoutRedirectUri = CloudConfigurationManager.GetSetting("ida:PostLogoutRedirectUri");
         public static readonly string Authority = string.Format(CultureInfo.InvariantCulture, AadInstance, Tenant);
